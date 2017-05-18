@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:background="#22ff00ff"
+        android:textSize="22sp"
+        android:paddingLeft="15dp"
+        android:text="这是可以做养生和大保健"
+        android:gravity="center_vertical"/>
+
+</LinearLayout>

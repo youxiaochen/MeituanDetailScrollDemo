@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xiaochen.you.meituan.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sv_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="210dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_title"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="￥9.9"
+                    android:textColor="#27cdcd"
+                    android:textSize="28sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:paddingTop="4dp"
+                    android:text="门市价：￥20.9"
+                    android:textColor="#cdcdcd"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="25dp"
+                    android:background="@android:color/holo_orange_dark"
+                    android:gravity="center"
+                    android:text="立即抢购"
+                    android:textColor="#ffffff" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#d1d1d1" />
+
+            <!-- 此处为了方便直接用截图 -->
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_title" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_descript" />
+
+        <RadioGroup
+            android:id="@+id/rg_group"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/f1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="true"
+                android:drawableBottom="@drawable/bg_scroll_select"
+                android:gravity="center"
+                android:text="洗浴汉蒸"
+                android:textColor="@color/bg_scroll_select"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/f2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableBottom="@drawable/bg_scroll_select"
+                android:gravity="center"
+                android:text="养生保健"
+                android:textColor="@color/bg_scroll_select"
+                android:textSize="15sp" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#d1d1d1" />
+
+        <FrameLayout
+            android:id="@+id/fl_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</xiaochen.you.meituan.widget.NestedScrollView>

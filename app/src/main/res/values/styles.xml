@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- toolbar颜色 -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- 状态栏颜色 -->
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <!-- 窗口的背景颜色 -->
+        <item name="android:windowBackground">@color/background</item>
+        <!-- 低版本去掉阴影 -->
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>
